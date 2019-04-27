@@ -20,4 +20,4 @@ echo $actual_PID
 kill $actual_PID
 
 #gnome-screensaver-command -l
-/home/markus/myscripts/lock_blur.sh
+~/myscripts/lock_blur.sh

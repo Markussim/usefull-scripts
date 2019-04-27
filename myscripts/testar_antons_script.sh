@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-cd /home/markus/myscripts/
+cd ~/myscripts/
 for i in *.sh
 do
 echo $i

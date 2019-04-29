@@ -5,4 +5,4 @@ This is a small repository of my scripts, they may or may not actually be useful
 
 The root folder of the local repo must be named the same as the repo, so "usefull-scripts" in this case
 
-The root folder must be in your home directory, so /home/<Insert name of your user>/
+The root folder must be in your home directory, so /home/Insert name of your user/

@@ -7,6 +7,8 @@ The root folder of the local repo must be named the same as the repo, so "useful
 
 The root folder must be in your home directory, so /home/Insert name of your user/
 
+Run the install script in the root of the repo to install all programs needed for the scripts to fuction properly
+
 # Updates
 
 No updates

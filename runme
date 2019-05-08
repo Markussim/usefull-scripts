@@ -1,1 +1,1 @@
-echo 'PATH=$PATH:~/usefull-scripts/scripts' >> ~/.bashrc
+echo 'export PATH=$PATH:/home/markus/usefull-scripts/scripts' >> ~/.bashrc

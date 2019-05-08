@@ -1,0 +1,7 @@
+image-magick
+scrot
+i3lock
+bc
+gnome-calculator
+xclip
+

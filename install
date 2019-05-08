@@ -1,0 +1,12 @@
+echo "This script will install all programs nessisary to run the other scripts. It will also add said scripts to PATH. Are you sure? Root is required. Answer with yes or no"
+read yesorno
+if ([ $yesorno = yes ])
+then
+echo 'export PATH=$PATH:/home/markus/usefull-scripts/scripts' >> ~/.bashrc
+for i in $(cat ~/usefull-scripts/programs.txt)
+do
+sudo apt install $i
+done
+fi
+echo Exiting
+

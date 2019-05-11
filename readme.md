@@ -7,10 +7,6 @@ The root folder of the local repo must be named the same as the repo, so "useful
 
 The root folder must be in your home directory, so /home/Insert name of your user/
 
-# Updates
-
-No updates
-
 # Unstable
 
 The unstable branch is for testing new features, it includes the lastest versions of all of the scripts but might not work or change quite often. It is not recomended

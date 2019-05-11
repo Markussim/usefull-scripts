@@ -10,3 +10,4 @@ The root folder must be in your home directory, so /home/Insert name of your use
 # Unstable
 
 The unstable branch is for testing new features, it includes the lastest versions of all of the scripts but might not work or change quite often. It is not recomended
+

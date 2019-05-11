@@ -2,7 +2,7 @@ echo "This script will install all programs nessisary to run the other scripts. 
 read yesorno
 if ([ $yesorno = yes ])
 then
-echo 'export PATH=$PATH:/home/markus/usefull-scripts/scripts' >> ~/.bashrc
+echo 'export PATH=$PATH:~/usefull-scripts/scripts' >> ~/.bashrc
 for i in $(cat ~/usefull-scripts/programs.txt)
 do
 sudo apt install $i

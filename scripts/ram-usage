@@ -1,0 +1,14 @@
+#/bin/bash
+
+echo -n "Total ram:			" 
+tot="$(sed -n -e 1p /proc/meminfo | awk  '{print $2}')"
+echo $tot
+
+echo -n "Avalible ram excluding cache:	"
+avl="$(sed -n -e 3p /proc/meminfo | awk  '{print $2}')"
+echo $avl
+
+pro="$(echo "scale=4; ($avl / $tot)*100" | bc)" 
+pro=${pro::-2}
+
+echo "$pro% used"

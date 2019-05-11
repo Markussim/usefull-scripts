@@ -15,4 +15,4 @@ pro="$(echo "scale=4; ($avl / $tot)*100" | bc)"
 pro=${pro::-2}
 
 # Echos the variable
-echo "$pro% availeble"
+echo "$pro% available"

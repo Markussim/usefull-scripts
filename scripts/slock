@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#gnome-screensaver-command -l
+~/usefull-scripts/scripts/lock_blur
+
+#sleep
+systemctl suspend

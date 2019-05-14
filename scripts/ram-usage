@@ -1,12 +1,12 @@
 #/bin/bash
 
 # Checks the currect total ram and uses sed and awk to cut out everything unimportant
-echo -n "Total ram:			" 
+echo -n "Total ram:	" 
 tot="$(sed -n -e 1p /proc/meminfo | awk  '{print $2}')"
 echo $tot
 
 # Checks the currect avaieble ram excluding cache as it is not important for a normal user and uses sed and awk to cut out everything unimportant
-echo -n "Available ram:			"
+echo -n "Available ram:	"
 avl="$(sed -n -e 3p /proc/meminfo | awk  '{print $2}')"
 echo $avl
 

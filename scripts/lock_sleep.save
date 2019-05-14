@@ -1,6 +1,0 @@
-#!/bin/bash
-
-#gnome-screensaver-command -l
-~/usefull-scripts/scripts/lock_blur
-
-systemctl https://github.com/Markussim/usefull-scriptssleep

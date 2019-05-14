@@ -10,7 +10,7 @@ echo -n "Available ram:			"
 avl="$(sed -n -e 3p /proc/meminfo | awk  '{print $2}')"
 echo $avl
 
-# Takes the used and divides it by the total and then takes that times 100. It then removes the last two characters as they are always two zeros
+# Takes the available and divides it by the total and then takes that times 100. It then removes the last two characters as they are always two zeros
 pro="$(echo "scale=4; ($avl / $tot)*100" | bc)" 
 pro=${pro::-2}
 

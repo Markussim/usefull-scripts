@@ -3,6 +3,8 @@ read yesorno
 if ([ $yesorno = yes ])
 then
 echo 'export PATH=$PATH:~/usefull-scripts/scripts' >> ~/.bashrc
+mkdir ~/usefull-scripts/.config
+touch ~/usefull-scripts/.config/web_history
 for i in $(cat ~/usefull-scripts/programs.txt)
 do
 sudo apt install $i

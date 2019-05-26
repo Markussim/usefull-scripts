@@ -1,0 +1,10 @@
+#/bin/bash
+
+website=$(sort ~/usefull-scripts/.config/web_history | uniq | dmenu | tee -a ~/usefull-scripts/.config/web_history)
+
+if [[ -n "$website" ]]; then
+   firefox $website
+   #echo starts firefox
+else
+   echo No website given
+fi

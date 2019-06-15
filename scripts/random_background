@@ -1,3 +1,3 @@
 #/bin/bash
 
-feh --bg-scale "$(find /home/markus/.backgrounds/ -type f | shuf -n 1)"
+feh --bg-scale "$(find ~/.backgrounds/ -type f | shuf -n 1)"
